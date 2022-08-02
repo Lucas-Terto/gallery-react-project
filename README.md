@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# Galeria de Fotos
+
+### Galeria de fotos desenvolvida em React + Styled Components e integrada com o Firebase.
+### OBS: para usar o projeto é necessário configurar o firebase com os dados individuais, criando um arquivo .env
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
