@@ -37,7 +37,7 @@ export const PhotoList = styled.div`
 export const UploadForm = styled.form`
     background-color: #3d3f43;
     padding: 1em;
-    border-radius: 10px;
+    border-radius: 5px;
     margin-bottom: 2em;
 
     input[type=submit] {
@@ -52,7 +52,7 @@ export const UploadForm = styled.form`
         transition: .3s;
 
         &:hover {
-            opacity: .9;
+            opacity: .7;
         }
     }
 `

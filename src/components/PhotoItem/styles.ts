@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     background-color: #3d3f43;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 10px;
 
     img {
@@ -11,21 +11,17 @@ export const Container = styled.div`
         margin-bottom: 10px;
         border-radius: 10px;
     }
-
-    button {
+    
+    button{
         width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
         background-color: #756df4;
         border: 0;
         color: #fff;
-        font-size: 1.2em;
+        padding: .4em .8em;
+        font-size: 1em;
         border-radius: 5px;
         cursor: pointer;
         transition: .3s;
-        font-weight: bold;
 
         &:hover {
             opacity: .7;
