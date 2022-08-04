@@ -46,7 +46,7 @@ export const UploadForm = styled.form`
         color: #fff;
         padding: .4em .8em;
         font-size: 1em;
-        border-radius: 10px;
+        border-radius: 5px;
         margin: 0 2em;
         cursor: pointer;
         transition: .3s;
