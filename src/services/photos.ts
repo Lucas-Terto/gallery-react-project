@@ -1,7 +1,7 @@
 import { Photo } from "../types/Photo"
 import {storage} from '../libs/firebase'
-import {ref, listAll, getDownloadURL, uploadBytes} from 'firebase/storage'
-import { v4 as createId} from "uuid"
+import {ref, listAll, getDownloadURL, uploadBytes, deleteObject} from 'firebase/storage'
+import {v4 as createId} from "uuid"
 
 export const getAll = async () => {
     let list:Photo[] = []
@@ -35,4 +35,9 @@ export const insert = async (file:File) => {
     } else {
         return new Error('Tipo de arquivo inválido!')
     }
+}
+
+export const del = async (name:string) => {
+    let photoRef = ref(storage, `images/${name}`)
+    await deleteObject(photoRef)
 }
