@@ -11,7 +11,7 @@ export const Container = styled.div`
         margin-bottom: 10px;
         border-radius: 10px;
     }
-
+    
     button{
         width: 100%;
         background-color: #756df4;
@@ -28,4 +28,3 @@ export const Container = styled.div`
         }
     }
 `
-
